@@ -47,7 +47,7 @@
     font-size: 100px;
 }
 .main-btn{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: #fff;
     background: #43baff;
@@ -61,6 +61,7 @@
     background-color: #252241;
     text-decoration: none;
     color: white;
+
 }
 .img-box2{
     position: relative;
@@ -86,6 +87,36 @@
     border:none ;
     padding: 10px 20px;
     font-weight: bold;
+}
+.latest{
+    color: #43baff;
+    font-weight: bold;
+    size: 10px;
+}
+.latestPro{
+    color:#252241 ;
+    font-size: 50px;
+    font-weight: bold;
+}
+.wash{
+    font-size: 18px;
+    color: gray;
+    margin: 1%;
+    padding: 10px;
+   border-bottom:0.5px solid gainsboro ;
+}
+.wash:hover{
+    color: white;
+    background-color:#43baff ;
+    border:none ;
+    transition: all .3s;
+    font-weight: bold;
+    text-decoration: none;
+}
+.zoom img:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+
 }
 
 
